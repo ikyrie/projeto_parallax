@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto | Gatito</title>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/produto.css">
+    <link rel="stylesheet" href="assets/css/outros-produtos.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
 </head>
 <body>
     <header class="cabecalho container">
@@ -39,6 +42,41 @@
                 </div>
             </article>
         </section>
+        <section class="outros-produtos">
+            <h2 class="outros-produtos__titulo">NOSSOS OUTROS PRODUTOS</h2>
+            <article id="carousel-produtos" class="carousel slide outros-produtos__carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-produtos" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-produtos" data-slide-to="1"></li>
+                    <li data-target="#carousel-produtos" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
+    <footer class="rodape container">
+        <div class="rodape__divisao">
+            <img src="assets/img/logo.svg" alt="Logo Gatito" class="rodape__logo">
+            <h1 class="rodape__titulo">gatito</h1>
+        </div>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__item"><a href="#">sobre</a></li>
+                <li class="rodape__item"><a href="#">contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
