@@ -14,7 +14,7 @@
     color: var(--branco);
     font-size: 1.75rem;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: .25rem;
     text-transform: uppercase;
 
     margin-bottom: 2rem;
