@@ -2,7 +2,7 @@
     background-color: var(--branco);
     
     width: 100%;
-    height: 5rem;
+    height: .3rem;
     box-sizing: border-box;
 
     display: flex;
@@ -10,7 +10,7 @@
     align-items: center;
     
     color: var(--rosa);
-    letter-spacing: 3px;
+    letter-spacing: .25rem;
 }
 
 .rodape__divisao {
@@ -21,7 +21,7 @@
 .rodape__logo {
     width: 2rem;
 
-    margin-right: 0.4rem;
+    margin-right: .4rem;
 }
 
 .rodape__titulo {

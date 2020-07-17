@@ -29,7 +29,7 @@
     font-size: 11.5rem;
     font-weight: 800;
     color: var(--rosa-claro);
-    letter-spacing: 9px;
+    letter-spacing: .56rem;
     line-height: 9rem;
 }
 
@@ -42,7 +42,7 @@
 .produto__preco {
     font-size: 1.375rem;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: .125rem;
 
     margin-bottom: 2.5rem;
 }
@@ -50,19 +50,19 @@
 .produto__nome {
     font-size: 1.375rem;
     font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 2px;
+    line-height: 1.875rem;
+    letter-spacing: .125rem;
 
     width: 31.875rem;
 
-    margin-bottom: 0.875rem;
+    margin-bottom: .875rem;
 }
 
 .produto__texto {
     width: 31.875rem;
 
-    letter-spacing: 2px;
-    line-height: 20px;
+    letter-spacing: .125rem;
+    line-height: 1.25rem;
 
     margin-bottom: 1rem;
 }
@@ -76,11 +76,11 @@
 
     color: var(--branco);
     font-weight: 900;
-    letter-spacing: 4px;
+    letter-spacing: .25rem;
     font-family: inherit;
     text-transform: uppercase;
 
-    border-radius: 35px;
+    border-radius: 2rem;
 
     background-color: var(--laranja);
 
