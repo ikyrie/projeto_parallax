@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto | Gatito</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/produto.css">
+    <link rel="stylesheet" href="assets/css/outros-produtos.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <div class="cabecalho__divisao">
+            <img src="assets/img/logo.svg" alt="Logo Gatito" class="cabecalho__logo">
+            <h1 class="cabecalho__titulo">gatito</h1>
+        </div>
+        <nav>
+            <ul class="cabecalho__navegacao">
+                <li class="cabecalho__item cabecalho__item--ativo"><a href="index.html">home</a></li>
+                <li class="cabecalho__item"><a href="#">sobre</a></li>
+                <li class="cabecalho__item"><a href="#">contato</a></li>
+                <li class="cabecalho__item"><a href="#" aria-label="busca"><img src="assets/img/lupa.svg" alt="Ícone de busca"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="produto">
+            <div class="produto__foto" aria-label="Foto do produto"></div>
+            <article class="produto__descricao container">
+                <h2 class="produto__marca">purina</h2>
+                <div class="produto__divisao">
+                    <p class="produto__preco">R$ 127,90</p>
+                    <h3 class="produto__nome">PURINA PRO PLAN SENSITIVE SKIN & STOMACH DOG FOOD</h3>
+                    <p class="produto__texto">The food you choose for your dog will help keep them happy, healthy, and feeling extraordinary. Help your dog be their best – inside and out – with the advanced nutrition of Purina Pro Plan Sensitive Skin & Stomach formulas.</p>
+                    <p class="produto__texto">When a dog has a sensitive stomach or irritable skin, it not only impacts which food they can eat, it can also affect their quality of life. Pro Plan Sensitive Skin & Stomach formulas are developed with specialized nutrition that promotes digestive health, healthy skin and a shiny coat.</p>
+                    <p class="produto__texto">And because every dog is unique, we offer choices suited to their needs and preferences, such as options with salmon or lamb as the first ingredient, as well as lifestage and breed size-specific formulas.</p>
+                    <button class="produto__comprar">comprar</button>
+                </div>
+            </article>
+        </section>
+        <section class="outros-produtos">
+            <h2 class="outros-produtos__titulo">NOSSOS OUTROS PRODUTOS</h2>
+            <article id="carousel-produtos" class="carousel slide outros-produtos__carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-produtos" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-produtos" data-slide-to="1"></li>
+                    <li data-target="#carousel-produtos" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="rodape container">
+        <div class="rodape__divisao">
+            <img src="assets/img/logo.svg" alt="Logo Gatito" class="rodape__logo">
+            <h1 class="rodape__titulo">gatito</h1>
+        </div>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__item"><a href="#">sobre</a></li>
+                <li class="rodape__item"><a href="#">contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
