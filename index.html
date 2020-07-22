@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto | Gatito</title>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/produto.css">
     <link rel="stylesheet" href="assets/css/outros-produtos.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
 </head>
 <body>
@@ -44,22 +44,36 @@
         </section>
         <section class="outros-produtos">
             <h2 class="outros-produtos__titulo">NOSSOS OUTROS PRODUTOS</h2>
-            <article id="carousel-produtos" class="carousel slide outros-produtos__carousel" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-produtos" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-produtos" data-slide-to="1"></li>
-                    <li data-target="#carousel-produtos" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/purina_produto_2.png" class="d-block outros-produtos__imagem" alt="...">
-                    </div>
+            <article class="carousel">
+                <button class="carousel__botao carousel__botao--anterior"><</button>
+                <button class="carousel__botao carousel__botao--proximo">></button>
+                <ul class="carousel__lista-produtos" data-carousel-produtos>
+                    <a href="#">
+                        <li class="carousel__produto"><img src="assets/img/produto1.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                    <a href="#">
+                        <li class="carousel__produto"><img src="assets/img/produto2.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                    <a href="#">
+                        <li class="carousel__produto"><img src="assets/img/produto3.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                    <a href="#">
+                        <li class="carousel__produto"><img src="assets/img/produto4.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                    <a href="#">
+                        <li class="carousel__produto"><img src="assets/img/produto5.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                    <a href="#">
+                        <li class="carousel__produto"><img src="assets/img/produto6.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                </ul>
+                <div class="carousel__indicadores">
+                    <button data-indicador="1" class="carousel__indicador carousel__indicador--ativo"></button>
+                    <button data-indicador="2" class="carousel__indicador"></button>
+                    <button data-indicador="3" class="carousel__indicador"></button>
+                    <button data-indicador="4" class="carousel__indicador"></button>
+                    <button data-indicador="5" class="carousel__indicador"></button>
+                    <button data-indicador="6" class="carousel__indicador"></button>
                 </div>
             </article>
         </section>
@@ -76,7 +90,6 @@
             </ul>
         </nav>
     </footer>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="js/index.js" type="module"></script>
 </body>
 </html>
