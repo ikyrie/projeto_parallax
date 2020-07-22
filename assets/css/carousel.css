@@ -12,8 +12,8 @@
 .carousel__botao {
     position: absolute;
 
-    width: 3.25rem;
-    height: 3.25rem;
+    width: 2.25rem;
+    height: 2.25rem;
 
     top: 50%;
     
@@ -22,7 +22,10 @@
     border: none;
     border-radius: 50%;
 
-    background-color: #ffffff80;
+    background-color: var(--rosa-claro-transparente);
+    background-size: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
 
     padding: .2rem;
 
@@ -33,12 +36,18 @@
     left: 0;
 
     margin-left: 1rem;
+
+    background-image: url(../img/seta-esquerda.svg);
+    background-position: .55rem center;
 }
 
 .carousel__botao--proximo {
     right: 0;
 
     margin-right: 1rem;
+
+    background-image: url(../img/seta-direita.svg);
+    background-position: .7rem center;
 }
 
 .carousel__lista-produtos {
@@ -80,17 +89,17 @@
 }
 
 .carousel__indicador {
-    width: 1.5rem;
+    width: 2.25rem;
     height: .25rem;
 
-    background-color: #00000050;
+    background-color: var(--branco-transparente);
 
     border-radius: 2rem;
 
     border: none;
-    margin: .5rem;
+    margin: .5rem 1rem;
 }
 
 .carousel__indicador--ativo {
-    background-color: #000;
+    background-color: var(--laranja);
 }
