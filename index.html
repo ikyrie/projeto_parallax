@@ -45,35 +45,35 @@
         <section class="outros-produtos">
             <h2 class="outros-produtos__titulo">NOSSOS OUTROS PRODUTOS</h2>
             <article class="carousel">
-                <button class="carousel__botao carousel__botao--anterior"><</button>
-                <button class="carousel__botao carousel__botao--proximo">></button>
+                <button class="carousel__botao carousel__botao--anterior" data-anterior><</button>
+                <button class="carousel__botao carousel__botao--proximo" data-proximo>></button>
                 <ul class="carousel__lista-produtos" data-carousel-produtos>
-                    <a href="#">
-                        <li class="carousel__produto"><img src="assets/img/produto1.png" alt="" class="carousel__imagem"></li>
+                    <a href="#" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="assets/img/produto1.png" alt="" class="carousel__imagem"></li>
                     </a>
-                    <a href="#">
-                        <li class="carousel__produto"><img src="assets/img/produto2.png" alt="" class="carousel__imagem"></li>
+                    <a href="#" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="assets/img/produto2.png" alt="" class="carousel__imagem"></li>
                     </a>
-                    <a href="#">
-                        <li class="carousel__produto"><img src="assets/img/produto3.png" alt="" class="carousel__imagem"></li>
+                    <a href="#" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="assets/img/produto3.png" alt="" class="carousel__imagem"></li>
                     </a>
-                    <a href="#">
-                        <li class="carousel__produto"><img src="assets/img/produto4.png" alt="" class="carousel__imagem"></li>
+                    <a href="#" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="assets/img/produto4.png" alt="" class="carousel__imagem"></li>
                     </a>
-                    <a href="#">
-                        <li class="carousel__produto"><img src="assets/img/produto5.png" alt="" class="carousel__imagem"></li>
+                    <a href="#" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="assets/img/produto5.png" alt="" class="carousel__imagem"></li>
                     </a>
-                    <a href="#">
-                        <li class="carousel__produto"><img src="assets/img/produto6.png" alt="" class="carousel__imagem"></li>
+                    <a href="#" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="assets/img/produto6.png" alt="" class="carousel__imagem"></li>
                     </a>
                 </ul>
-                <div class="carousel__indicadores">
-                    <button data-indicador="1" class="carousel__indicador carousel__indicador--ativo"></button>
+                <div class="carousel__indicadores" data-carousel-indicadores>
+                    <button data-indicador="0" class="carousel__indicador carousel__indicador--ativo"></button>
+                    <button data-indicador="1" class="carousel__indicador"></button>
                     <button data-indicador="2" class="carousel__indicador"></button>
                     <button data-indicador="3" class="carousel__indicador"></button>
                     <button data-indicador="4" class="carousel__indicador"></button>
                     <button data-indicador="5" class="carousel__indicador"></button>
-                    <button data-indicador="6" class="carousel__indicador"></button>
                 </div>
             </article>
         </section>
@@ -90,6 +90,6 @@
             </ul>
         </nav>
     </footer>
-    <script src="js/index.js" type="module"></script>
+    <script src="assets/js/index.js" type="module"></script>
 </body>
 </html>

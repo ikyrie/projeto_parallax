@@ -45,6 +45,8 @@
     position: relative;
 
     height: 100%;
+
+    transition: transform .25s;
 }
 
 .carousel__produto {
@@ -53,6 +55,11 @@
     bottom: 0;
 
     width: 100%;
+}
+
+.carousel__imagem-container {
+    width: 100%;
+    height: 100%;
 }
 
 .carousel__imagem {
