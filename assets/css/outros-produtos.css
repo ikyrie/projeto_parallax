@@ -1,0 +1,39 @@
+.outros-produtos {
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 2.5rem;
+
+    background-color: var(--laranja);
+}
+
+.outros-produtos__titulo {
+    color: var(--branco);
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+}
+
+.outros-produtos__carousel {
+    width: 48.125rem;
+    height: 37.5rem;
+
+    border-radius: 10px 10px 0 0;
+
+    overflow: hidden;
+}
+
+.outros-produtos__imagem {
+    margin: 0 auto;
+
+    width: unset;
+    height:37.5rem;
+
+    transform: scale(2) translateY(2rem);
+}

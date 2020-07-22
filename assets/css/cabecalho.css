@@ -11,7 +11,7 @@
     align-items: center;
     
     color: var(--rosa);
-    letter-spacing: 3px;
+    letter-spacing: .25rem;
 }
 
 .cabecalho__divisao {
@@ -22,7 +22,7 @@
 .cabecalho__logo {
     width: 3.25rem;
 
-    margin-right: 0.75rem;
+    margin-right: .75rem;
 }
 
 .cabecalho__titulo {
@@ -47,10 +47,10 @@
     background-color: var(--laranja);
 
     width: 100%;
-    height: 3px;
+    height: .25rem;
 
     position: absolute;
-    bottom: -0.5rem;
+    bottom: -.5rem;
 
-    border-radius: 10px;
+    border-radius: .625rem;
 }
