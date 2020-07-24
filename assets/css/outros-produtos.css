@@ -19,21 +19,3 @@
 
     margin-bottom: 2rem;
 }
-
-.outros-produtos__carousel {
-    width: 48.125rem;
-    height: 37.5rem;
-
-    border-radius: 10px 10px 0 0;
-
-    overflow: hidden;
-}
-
-.outros-produtos__imagem {
-    margin: 0 auto;
-
-    width: unset;
-    height:37.5rem;
-
-    transform: scale(2) translateY(2rem);
-}
